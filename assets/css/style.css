@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=Share+Tech+Mono&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    color: #FFF;
+}
+.line{
+    border: 3px solid #FFF;
+    border-radius: 10px;
+    margin: 20px;
+}
+.line-external{
+    border: 3px solid #FFF;
+    border-radius: 10px;
+    border-radius: 10px;
+}
+.clock{
+    font-size: 128px;
+    font-weight: 600;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Share Tech Mono', monospace;
+    padding: 50px;
+}
